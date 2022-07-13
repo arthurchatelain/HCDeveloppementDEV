@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+	font-family: 'Comfortaa-light';
+	src: url('../../Fonts/Comfortaa-Light.ttf') format('truetype')
+}
+@font-face {
+	font-family: 'Comfortaa-regular';
+	src: url('../../Fonts/Comfortaa-Regular.ttf') format('truetype')
+}
+@font-face {
+	font-family: 'Comfortaa-bold';
+	src: url('../../Fonts/Comfortaa-Bold.ttf') format('truetype')
+}
+
+.ErrorPage {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #e8e8ed;
+}
+
+.ErrorLogo {
+    height: calc(100% - 60px);
+    margin: 30px;
+}
+
+.ErrorLogoContainer {
+    height: 20%;
+}
+
+.svgErrorContainer {
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ErrorTextContainer {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ErrorTextContainer2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ErrorText {
+    font-size: 25px;
+    font-family: 'Comfortaa-regular';
+    padding-bottom: 14px;
+}
+
+.ErrorLink {
+    font-size: 15px;
+    font-family: 'Comfortaa-bold';
+}
+
+svg#Calque_1 {
+    height: 100%;
+}
+
