@@ -34,3 +34,82 @@
     z-index: -1;
     border-radius: 7px;
 }
+
+@media (max-width: 1245px) {
+    .Home section h3 {
+        font-size: 25px;
+    }
+    .Home section p {
+        font-size: 19px;
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 1025px) {
+    .Home section h3 {
+        font-size: 24px;
+    }
+    .Home section p {
+        font-size: 17px;
+        max-width: 70%;
+    }
+    .Home section .TextContainer {
+        background: linear-gradient(to right, #000, #000000e3 70%, rgba(0, 0, 0, 0));
+    }
+}
+
+@media (max-width: 850px) {
+    .Home section p {
+        font-size: 17px;
+        max-width: 90%;
+    }
+    .Home section .TextContainer {
+        background: linear-gradient(to right, #000, #000000e3 90%, rgba(0, 0, 0, 0));
+    }
+}
+
+@media (max-width: 740px) {
+    .Home section p {
+        font-size: 17px;
+        max-width: 100%;
+    }
+    .Home section .TextContainer {
+        background: linear-gradient(to right, #000, #000000e3 100%, rgba(0, 0, 0, 0));
+    }
+}
+
+@media (max-width: 610px) {
+    .Home section h3 {
+        font-size: 21px;
+    }
+    .Home section p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .Home section h3 {
+        font-size: 18px;
+        padding-bottom: 22px;
+    }
+    .Home section p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    .Home section h3 {
+        font-size: 17px;
+        padding-bottom: 18px;
+    }
+    .Home section p {
+        font-size: 13.5px;
+    }
+    .Home section .TextContainer {
+        padding: 20px;
+        width: calc(100% - 40px);
+    }
+    .Home section {
+        padding: 12px 0px;
+    }
+}

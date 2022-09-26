@@ -52,6 +52,7 @@ header {
     top: calc(100% + 30px);
     right: 30px;
     background-color: #175994;
+    z-index: 2;
 }
 
 .ContactLink a {
@@ -62,7 +63,7 @@ header {
 .ContactModal .ContactLink {
     margin: 10px 20px;
     padding: 8px;
-    width: 300px;
+    width: 260px;
     height: 48px;
     font-size: 18px;
     border-radius: 10px;
@@ -81,3 +82,95 @@ header {
     border-radius: 21px;
     margin-right: 10px;
 }
+
+@media (max-width: 610px) {
+    header {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    header {
+        padding: 8px 10px;
+    }
+
+    header nav a {
+        padding-right: 30px;
+        font-size: 16px;
+    }
+
+    header .Contact {
+        padding: 4px 12px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 335px) {
+    header nav a {
+        padding-right: 20px;
+        font-size: 15px;
+    }
+    header .Contact {
+        padding: 4px 11px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1400px) {
+    header .ContactModal {
+        padding: 15px;
+    }
+    header .ContactModal .ContactLink {
+        width: 180px;
+        margin: 10px;
+        padding: 6px;
+    }
+    header .ContactLink img {
+        width: 32px;
+    }
+    header .ContactLink a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 900px) {
+    header .ContactModal {
+        padding: 12px;
+    }
+    header .ContactModal .ContactLink {
+        margin: 8px;
+        padding: 0px;
+        width: 150px;
+        font-size: 15px;
+    }
+    header .ContactModal svg {
+        scale: 0.75;
+    }
+
+    header .ContactLinkEmail a {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 900px) {
+    header .ContactModal {
+        padding: 10px;
+    }
+    header .ContactModal .ContactLink {
+        margin: 5px;
+        padding: 0px;
+        width: 150px;
+        font-size: 15px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    header .ContactModal svg {
+        scale: 0.65;
+    }
+
+    header .ContactLinkEmail a {
+        font-size: 9px;
+    }
+}
+
+

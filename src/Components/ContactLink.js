@@ -6,7 +6,7 @@ export default function ContactLink (props) {
 
     return (
 
-        <div className="ContactLinkContainer" onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
+        <div className="ContactLinkContainer" onMouseEnter={() => setOpen(true)} onClick={() => setOpen(!isOpen)} onMouseLeave={() => setOpen(false)}>
             {isOpen ? 
                 props.element
             :

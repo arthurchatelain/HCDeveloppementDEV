@@ -42,3 +42,123 @@
     padding: 0px 100px;
     margin-top: 180px;
 }
+
+@media (max-width: 1245px) {
+    .Home main h1 {
+        font-size: 55px;
+    }
+    .Home main h2 {
+        font-size: 30px;
+    }
+    .Home main .logo {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1010px) {
+    .Home main h1 {
+        font-size: 40px;
+    }
+    .Home main h2 {
+        font-size: 24px;
+    }
+    .Home main .logo {
+        font-size: 24px;
+    }
+    .Home .Sections {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 740px) {
+    .Home .Sections {
+        padding: 0px 40px;
+        margin-top: 60px;
+    }
+    .Home main h1 {
+        font-size: 30px;
+    }
+    .Home main h2 {
+        font-size: 20px;
+    }
+    .Home main .logo {
+        font-size: 24px;
+    }
+    .Home main {
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 610px) {
+    .Home .Sections {
+        padding: 0px 25px;
+        margin-top: 50px;
+    }
+    .Home main {
+        padding-bottom: 25px;
+    }
+    .Home main h1 {
+        font-size: 26px;
+    }
+    .Home main h2 {
+        font-size: 16px;
+    }
+    .Home main .logo {
+        font-size: 24px;
+    }
+    .Home {
+        padding: 15px;
+        width: calc(100% - 30px);
+        height: calc(100% - 30px);
+    }
+}
+
+@media (max-width: 500px) {
+    .Home .Sections {
+        padding: 0px 15px;
+        margin-top: 30px;
+    }
+    .Home main {
+        padding-bottom: 25px;
+        padding-top: 40px;
+    }
+    .Home main h1 {
+        font-size: 22px;
+        padding-top: 12px;
+    }
+    .Home main h2 {
+        font-size: 14px;
+    }
+    .Home main .logo {
+        font-size: 22px;
+    }
+    .Home {
+        padding: 12px;
+        width: calc(100% - 24px);
+        height: calc(100% - 24px);
+    }
+}
+
+@media (max-width: 425px) {
+    .Home {
+        padding: 5px;
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+    }
+}
+
+@media (max-width: 375px) {
+    .Home main h1 {
+        font-size: 18px;
+        padding-top: 8px;
+    }
+    .Home main h2 {
+        font-size: 12px;
+    }
+    .Home main .logo {
+        font-size: 18px;
+    }
+    .Home main {
+        padding-top: 30px;
+    }
+}
