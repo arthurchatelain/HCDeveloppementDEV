@@ -1,0 +1,36 @@
+@import url(../Fonts.css);
+
+.Home section h3 {
+    font-family: RobotoCondensed-Bold;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.Home section p {
+    font-family: RobotoCondensed-Regular;
+    font-size: 20px;
+    max-width: 50%;
+}
+
+.Home section {
+    position: relative;
+    z-index: 0;
+    padding: 20px 0px;
+}
+
+.Home section .TextContainer {
+    padding: 30px;
+    width: calc(100% - 60px);
+    background: linear-gradient(to right, #000, #000000e3  50%, rgba(0, 0, 0, 0));
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+.Home section img {
+    position: absolute;
+    height: calc(100% - 40px);
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    border-radius: 7px;
+}

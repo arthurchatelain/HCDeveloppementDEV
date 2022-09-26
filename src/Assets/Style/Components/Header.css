@@ -1,0 +1,83 @@
+@import url(../Fonts.css);
+
+.white {
+    color: white;
+    font-family: Comfortaa-bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #606060;
+    padding-right: 60px;
+    font-family: Comfortaa-regular;
+    font-size: 18px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    position: relative;
+    box-shadow: 0px 8px 9px -9px;
+}
+
+.Contact {
+    background-color: #175994;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-family: Comfortaa-regular;
+    cursor: pointer;
+}
+
+.topLinks {
+    width: calc(100%/3);
+}
+
+.ContactModal {
+    position: absolute;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 20px;
+    border-radius: 5px;
+    top: calc(100% + 30px);
+    right: 30px;
+    background-color: #175994;
+}
+
+.ContactLink a {
+    text-decoration: none;
+    color: white;
+}
+
+.ContactModal .ContactLink {
+    margin: 10px 20px;
+    padding: 8px;
+    width: 300px;
+    height: 48px;
+    font-size: 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.ContactLink svg {
+    padding-right: 8px;
+}
+
+.ContactLink img {
+    width: 42px;
+    border-radius: 21px;
+    margin-right: 10px;
+}

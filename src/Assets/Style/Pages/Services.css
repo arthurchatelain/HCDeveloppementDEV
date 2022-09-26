@@ -1,0 +1,76 @@
+@import url(../Fonts.css);
+
+.Services {
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    background-color: #10121B;
+    padding: 20px;
+}
+
+.ServicePresentation {
+    padding-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ServicePresentation h1 {
+    font-family: RobotoCondensed-Light;
+    color: white;
+    line-height: 180%;
+    width: 55%;
+    font-size: 24px;
+}
+
+.AllServices {
+    padding: 100px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.ServiceBloc {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 80px);
+    padding: 20px;
+    margin: 30px 20px;
+    background-color: #242432;
+    border-radius: 6px;
+}
+
+.ServiceTypeContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ServiceBloc h2 {
+    text-align: center;
+    color: white;
+    font-family: RobotoCondensed-Regular;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.ServiceType {
+    width: calc(100% - 60px);
+    padding: 30px 40px;
+    margin: 20px 10px;
+    background-color: azure;
+    border-radius: 5px;
+}
+
+.ServiceType h3 {
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: RobotoCondensed-Bold;
+    font-size: 23px;
+}
+
+.ServiceType p {
+    font-family: RobotoCondensed-Regular;
+    text-align: justify;
+    font-size: 19px;
+    line-height: 140%;
+}

@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'Comfortaa-light';
+	src: url('../Fonts/Comfortaa-Light.ttf') format('truetype')
+}
+@font-face {
+	font-family: 'Comfortaa-regular';
+	src: url('../Fonts/Comfortaa-Regular.ttf') format('truetype')
+}
+@font-face {
+	font-family: 'Comfortaa-bold';
+	src: url('../Fonts/Comfortaa-Bold.ttf') format('truetype')
+}
+@font-face {
+	font-family: 'Scriptina';
+	src: url('../Fonts/Scriptina.ttf') format('truetype')
+}
+@font-face {
+	font-family: 'RobotoCondensed-light';
+	src: url('../Fonts/RobotoCondensed-Light.ttf') format('truetype')
+}
+@font-face {
+	font-family: 'RobotoCondensed-regular';
+	src: url('../Fonts/RobotoCondensed-Regular.ttf') format('truetype')
+}
+@font-face {
+	font-family: 'RobotoCondensed-bold';
+	src: url('../Fonts/RobotoCondensed-Bold.ttf') format('truetype')
+}
