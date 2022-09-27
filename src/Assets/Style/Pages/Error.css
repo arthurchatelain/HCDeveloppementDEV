@@ -40,11 +40,11 @@
 }
 
 .ErrorTextContainer2 {
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 60px;
 }
 
 .ErrorText {
@@ -60,5 +60,14 @@
 
 svg#Calque_1 {
     height: 100%;
+}
+
+@media (max-width: 575px) {
+    .ErrorText {
+        font-size: 16px;
+    }
+    .ErrorLink {
+        font-size: 13px;
+    }
 }
 
