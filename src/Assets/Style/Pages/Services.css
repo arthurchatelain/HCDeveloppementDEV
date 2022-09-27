@@ -74,3 +74,94 @@ section.ServiceBloc {
     font-size: 19px;
     line-height: 140%;
 }
+
+@media (max-width: 1100px) {
+    .Services section.ServiceBloc {
+        width: calc(100% - 80px);
+    }
+}
+
+@media (max-width: 1000px) {
+    .Services .ServicePresentation h1 {
+        width: 75%;
+    }
+}
+
+@media (max-width: 800px) {
+    .Services .ServicePresentation h1 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 745px) {
+    .Services .ServicePresentation h1 {
+        font-size: 22px;
+    }
+
+    .Services .ServiceBloc h2 {
+        font-size: 26px;
+    }
+    .Services .AllServices {
+        padding: 90px 0px;
+    }
+    .ServiceType h3 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 600px) {
+    .ServiceType {
+        width: 100%;
+        padding: 30px 20px;
+        margin: 20px 10px;
+        background-color: azure;
+        border-radius: 5px;
+    }
+    .Services section.ServiceBloc {
+        width: 100%;
+        padding: 10px;
+        margin: 25px 0px;
+    }
+    .Services .ServicePresentation h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Services .ServicePresentation h1 {
+        font-size: 19px;
+        width: 85%;
+        line-height: 170%;
+    }
+    .Services .AllServices {
+        padding: 75px 0px;
+    }
+    .Services section.ServiceBloc {
+        width: 100%;
+        padding: 10px 0px;
+        margin: 25px 0px;
+        background-color: initial;
+    }
+}
+
+@media (max-width: 400px) {
+    .Services .ServicePresentation h1 {
+        font-size: 17px;
+        width: 90%;
+        line-height: 170%;
+    }
+    .Services .AllServices {
+        padding: 55px 0px;
+    }
+    .Services section.ServiceBloc {
+        width: 100%;
+        padding: 10px 0px;
+        margin: 25px 0px;
+        background-color: initial;
+    }
+    .ServiceType p {
+        font-size: 18px;
+    }
+}
+
+
