@@ -15,7 +15,7 @@ export default function HomeSection (props) {
                 <img className='BackgroundImage' alt='ImageText' src={image}/>
                 <div className='TextContainer'>
                     <h3>{title}</h3>
-                    <p>{text}</p>
+                    <p className='apparitionOpacity'>{text}</p>
                 </div>
             </section>
         )
@@ -25,8 +25,8 @@ export default function HomeSection (props) {
                 <img className='BackgroundImage' alt='ImageText' src={image}/>
                 <div className='TextContainer'>
                     <h3>{title}</h3>
-                    <p>{text[0]}</p>
-                    <p>{text[1]}</p>
+                    <p className='apparitionOpacity'>{text[0]}</p>
+                    <p className='apparitionOpacity'>{text[1]}</p>
                 </div>
             </section>
         )

@@ -1,0 +1,10 @@
+.apparitionOpacity {
+    animation-name: apparitionOpacity;
+    animation-duration: 1s;
+}
+
+@keyframes apparitionOpacity {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+

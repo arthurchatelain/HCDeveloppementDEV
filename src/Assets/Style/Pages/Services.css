@@ -109,7 +109,7 @@ section.ServiceBloc {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 610px) {
     .ServiceType {
         width: 100%;
         padding: 30px 20px;
@@ -125,9 +125,14 @@ section.ServiceBloc {
     .Services .ServicePresentation h1 {
         font-size: 20px;
     }
+    .Services {
+        padding: 15px;
+        width: calc(100% - 30px);
+        height: calc(100% - 30px);
+    }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     .Services .ServicePresentation h1 {
         font-size: 19px;
         width: 85%;
@@ -141,6 +146,19 @@ section.ServiceBloc {
         padding: 10px 0px;
         margin: 25px 0px;
         background-color: initial;
+    }
+    .Services {
+        padding: 12px;
+        width: calc(100% - 24px);
+        height: calc(100% - 24px)
+    }
+}
+
+@media (max-width: 425px) {
+    .Services {
+        padding: 5px;
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
     }
 }
 
@@ -163,5 +181,4 @@ section.ServiceBloc {
         font-size: 18px;
     }
 }
-
 

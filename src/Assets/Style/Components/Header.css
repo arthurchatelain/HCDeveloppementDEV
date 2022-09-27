@@ -66,11 +66,12 @@ header {
     width: 260px;
     height: 48px;
     font-size: 18px;
-    border-radius: 10px;
+    border-radius: 8px;
     text-decoration: none;
     color: white;
     display: flex;
     align-items: center;
+    box-shadow: 0px 0px 8px -4px black;
 }
 
 .ContactLink svg {
@@ -171,6 +172,16 @@ header {
     header .ContactLinkEmail a {
         font-size: 9px;
     }
+}
+
+.ContactModal {
+    animation-name: apparition;
+    animation-duration: 0.2s;
+} 
+
+@keyframes apparition {
+    from { scale: 0; }
+    to { scale: 1; }
 }
 
 

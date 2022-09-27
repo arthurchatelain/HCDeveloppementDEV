@@ -11,7 +11,7 @@ export default function Services () {
             <Header pageActive='Services'/>
             <main className='mainServices'>
                 <div className='ServicePresentation'>
-                    <h1>Je suis Hugo Chatelain et je peux vous aider dans la rédaction de différents types de service, allant de l’humain au financier. Vous trouverez ci-dessous plus d’informations. N’hésitez pas à me contacter pour plus d’information ou demander un contrat</h1>
+                    <h1 className='apparitionOpacity'>Je suis Hugo Chatelain et je peux vous aider dans la rédaction de différents types de service, allant de l’humain au financier. Vous trouverez ci-dessous plus d’informations. N’hésitez pas à me contacter pour plus d’information ou demander un contrat</h1>
                 </div>
                 <div className='AllServices'>
                     <ServiceBloc title='Développement financier' first={{title: 'Supports', text: defaultText}} second={{title: 'Démarchage', text: defaultText}}/>
