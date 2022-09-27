@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6b5704d3.css",
+    "main.js": "/static/js/main.537b7488.js",
+    "static/media/competences.jpg": "/static/media/competences.5daea8e29cf637c0048f.jpg",
+    "static/media/finalite.jpg": "/static/media/finalite.85405edf57f41610a833.jpg",
+    "static/media/prestations.jpg": "/static/media/prestations.e00a1d7c6e9166bf9d91.jpg",
+    "static/media/philosophie.jpg": "/static/media/philosophie.4bd76decd93b530efec6.jpg",
+    "static/media/RobotoCondensed-Regular.ttf": "/static/media/RobotoCondensed-Regular.fc3d2f2e3a203d0037c1.ttf",
+    "static/media/RobotoCondensed-Bold.ttf": "/static/media/RobotoCondensed-Bold.c5fe6deebafaec078e64.ttf",
+    "static/media/RobotoCondensed-Light.ttf": "/static/media/RobotoCondensed-Light.315e30bd24f609c6f8d1.ttf",
+    "static/media/Comfortaa-Light.ttf": "/static/media/Comfortaa-Light.3aa1a958b3fc7c3318c7.ttf",
+    "static/media/Comfortaa-Regular.ttf": "/static/media/Comfortaa-Regular.886fcced57daea5944e7.ttf",
+    "static/media/Comfortaa-Bold.ttf": "/static/media/Comfortaa-Bold.c6eb380b9f8f0920f934.ttf",
+    "static/media/Scriptina.ttf": "/static/media/Scriptina.a9a77934eb7c971d71e2.ttf",
+    "index.html": "/index.html",
+    "main.6b5704d3.css.map": "/static/css/main.6b5704d3.css.map",
+    "main.537b7488.js.map": "/static/js/main.537b7488.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b5704d3.css",
+    "static/js/main.537b7488.js"
+  ]
+}
