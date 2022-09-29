@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.77587131.css",
-    "main.js": "/static/js/main.c3f8ad8d.js",
+    "main.css": "/static/css/main.2fb5c347.css",
+    "main.js": "/static/js/main.2c22f771.js",
     "static/media/competences.jpg": "/static/media/competences.5daea8e29cf637c0048f.jpg",
     "static/media/finalite.jpg": "/static/media/finalite.85405edf57f41610a833.jpg",
     "static/media/prestations.jpg": "/static/media/prestations.e00a1d7c6e9166bf9d91.jpg",
@@ -14,11 +14,11 @@
     "static/media/Comfortaa-Bold.ttf": "/static/media/Comfortaa-Bold.c6eb380b9f8f0920f934.ttf",
     "static/media/Scriptina.ttf": "/static/media/Scriptina.a9a77934eb7c971d71e2.ttf",
     "index.html": "/index.html",
-    "main.77587131.css.map": "/static/css/main.77587131.css.map",
-    "main.c3f8ad8d.js.map": "/static/js/main.c3f8ad8d.js.map"
+    "main.2fb5c347.css.map": "/static/css/main.2fb5c347.css.map",
+    "main.2c22f771.js.map": "/static/js/main.2c22f771.js.map"
   },
   "entrypoints": [
-    "static/css/main.77587131.css",
-    "static/js/main.c3f8ad8d.js"
+    "static/css/main.2fb5c347.css",
+    "static/js/main.2c22f771.js"
   ]
 }

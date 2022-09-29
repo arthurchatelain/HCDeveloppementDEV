@@ -1,3 +1,5 @@
+@import url(./Fonts.css);
+
 .apparitionOpacity {
     animation-name: apparitionOpacity;
     animation-duration: 1s;
@@ -8,3 +10,19 @@
     to { opacity: 1; }
 }
 
+textarea {
+    font-size: 20px;
+    font-family: RobotoCondensed-Regular;
+    width: 500px;
+    height: 200px;
+}
+
+.Home textarea {
+    width: 1000px;
+    height: 200px;
+}
+
+.Services .ServicePresentation textarea {
+    width: 700px;
+    height: 150px;
+}

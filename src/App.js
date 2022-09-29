@@ -4,13 +4,14 @@ import Home from './Pages/Home';
 import ErrorPage from './Pages/Error';
 import Services from './Pages/Services';
 
-function App() { 
+function App(props) { 
+
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={<Home />}/>
-        <Route path='/Home' element={<Home />}/>
-        <Route path='/Services' element={<Services />}/>
+        <Route path='/' element={<Home database={props.database} textes={props.data}/>}/>
+        <Route path='/Home' element={<Home database={props.database} textes={props.data}/>}/>
+        <Route path='/Services' element={<Services database={props.database} textes={props.data}/>}/>
         <Route path='*' element={<ErrorPage />}/> 
       </Routes>
     </div>
