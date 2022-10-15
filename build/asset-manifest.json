@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2fb5c347.css",
-    "main.js": "/static/js/main.2c22f771.js",
+    "main.js": "/static/js/main.72186c02.js",
     "static/media/competences.jpg": "/static/media/competences.5daea8e29cf637c0048f.jpg",
     "static/media/finalite.jpg": "/static/media/finalite.85405edf57f41610a833.jpg",
     "static/media/prestations.jpg": "/static/media/prestations.e00a1d7c6e9166bf9d91.jpg",
@@ -15,10 +15,10 @@
     "static/media/Scriptina.ttf": "/static/media/Scriptina.a9a77934eb7c971d71e2.ttf",
     "index.html": "/index.html",
     "main.2fb5c347.css.map": "/static/css/main.2fb5c347.css.map",
-    "main.2c22f771.js.map": "/static/js/main.2c22f771.js.map"
+    "main.72186c02.js.map": "/static/js/main.72186c02.js.map"
   },
   "entrypoints": [
     "static/css/main.2fb5c347.css",
-    "static/js/main.2c22f771.js"
+    "static/js/main.72186c02.js"
   ]
 }
